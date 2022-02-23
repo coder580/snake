@@ -1,3 +1,8 @@
-Click on the rawdraw submodule and find the requires libraries<br>
-Just run make and you should have an executable named "snake"
-
+build instructions:
+<code>
+  git clone https://github.com/coder580/snake
+  cd snake
+  git submodule update --init --recursive
+  make
+ </code>
+  
