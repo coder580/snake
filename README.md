@@ -1,8 +1,6 @@
-build instructions:
-<code>
-  git clone https://github.com/coder580/snake<br>
-  cd snake<br>
-  git submodule update --init --recursive<br>
-  make<br>
- </code>
+build instructions:<br>
+  <code>git clone https://github.com/coder580/snake</code><br>
+  <code>cd snake</code>
+  <code>git submodule update --init --recursive</code><br>
+  <code>make</code><br>
   
