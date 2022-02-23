@@ -1,7 +1,6 @@
 build instructions:
 ```
-git clone https://github.com/coder580/snake
+git clone https://github.com/coder580/snake --recurse-submodules
 cd snake
-git submodule update --init --recursive
 make
 ```
