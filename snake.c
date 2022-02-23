@@ -9,7 +9,6 @@
 #include "./rawdraw/CNFG.h"
 #include "./rawdraw/os_generic.h"
 
-struct node *Head;
 
 int ctrl=0;
 
@@ -213,7 +212,7 @@ void gameCycle(struct node **head)
 int main()
 {
 	srand(time(NULL));
-	Head=NULL; //addNode() leaves the old heads "next" pointer alone if the head is null
+	struct node *Head=NULL; //addNode() leaves the old heads "next" pointer alone if the head is null
 
 	randPill();
 
