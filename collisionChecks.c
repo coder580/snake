@@ -28,7 +28,7 @@ int wallCollisionCheck(struct node *head)
         return 0;
 }
 
-//check if the dumbass snake killed itself yet
+//check if the snake killed itself yet
 int aliveCheck(struct node *head)
 {
         return (selfCollisionCheck(head) || wallCollisionCheck(head));
